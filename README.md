@@ -20,11 +20,11 @@ You'll need the VVVV enviroment you can easily download it from VVVV.org and you
 Download lots of videos or video clips of your choosing and place/orginzie them in a single folder
 Download the entire repo including the /loadscreen/ folder 
 	currently the app can crash if the default loadScreen directory doesn't have atleast some content
-Double click the current version file (V3.9.5.v4p) and the application should load with further directions and keycommands - internal readme included below: 
+Double click the Fapinator9000 file and the application should load with further directions and keycommands - internal readme included below: 
 
 Fapinator 9000 v3.9.5
 ****if you only see one video pres the numpad ./del key****
-
+Code is locked with CTRL+E
 How to use this program: 
 Primary Controls: 
 Fullscreen: HOME key
