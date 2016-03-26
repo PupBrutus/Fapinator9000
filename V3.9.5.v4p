@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta34.2.dtd" >
-   <PATCH nodename="C:\Users\jdono\Desktop\Active Projects\VVVV Experiments\V3.9.5.v4p" systemname="V3.9" filename="C:\Users\jdono\Desktop\Active Projects\VVVV Experiments\V3.9.v4p" scrollx="0" scrolly="0" locked="0">
+   <PATCH nodename="C:\Users\jdono\Desktop\Active Projects\Fapinator9000\V3.9.5.v4p" systemname="V3.9" filename="C:\Users\jdono\Desktop\Active Projects\VVVV Experiments\V3.9.v4p" scrollx="0" scrolly="0" locked="1">
    <BOUNDS type="Window" left="-195" top="1860" width="13845" height="11445">
    </BOUNDS>
    <PACK Name="addonpack" Version="32.2.0">
@@ -125,7 +125,7 @@
    </BOUNDS>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="1" values="0.7">
+   <PIN pinname="Y Input Value" slicecount="1" values="1">
    </PIN>
    <PIN pinname="Precision" slicecount="1" values="2">
    </PIN>
@@ -616,7 +616,7 @@
    </LINK>
    <LINK srcnodeid="472" srcpinname="Y Output Value" dstnodeid="461" dstpinname="Hard Next">
    </LINK>
-   <NODE id="468" componentmode="InAWindow" systemname="Render Module V1" filename="Render Module V1.v4p" nodename="Render Module V1.v4p">
+   <NODE id="468" componentmode="Hidden" systemname="Render Module V1" filename="Render Module V1.v4p" nodename="Render Module V1.v4p">
    <BOUNDS type="Node" left="225" top="11760" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Play" visible="1" slicecount="1" values="0">
@@ -755,7 +755,7 @@
    </BOUNDS>
    <PIN pinname="Output String" visible="1">
    </PIN>
-   <PIN pinname="Input String" slicecount="1" values="middle-finger-dd-other.jpg">
+   <PIN pinname="Input String" slicecount="1" values="LoadScreen\middle-finger-dd-other.jpg">
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" values="|Boss Screen File|">
    </PIN>
@@ -1345,7 +1345,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="195" top="1215" width="5775" height="9780">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Fapinator 9000 v3.9.5&cr;&lf;****if you only see one video pres the numpad ./del key****&cr;&lf;&cr;&lf;How to use this program: &cr;&lf;Primary Controls: &cr;&lf;Fullscreen: HOME key&cr;&lf;Play/Pause: END key&cr;&lf;Master Mute/UnMute: Numpad3&cr;&lf;Boss Mode (hides screen... sorta...): Numpad1&cr;&lf;Refresh Aspect Ratio Calculation: Numpad2&cr;&lf;&cr;&lf;This program has the tendancy to bug out on occasion - if so just close/reopen. &cr;&lf;&cr;&lf;First select your video stream folder from the box marked &quot;Open&quot;&cr;&lf;Then use keyboard shortcuts to full-screen/play the video folders. &cr;&lf;&cr;&lf;There are some input boxes below to tinker with settings, as well as a (barely) functional GUI for many controls but I don&apos;t really encourage using them as many can also be buggy or cause logics to fail. &cr;&lf;&cr;&lf;Video Skipping - you can skip to a new video new time within just a single video stream by pressing the numpad key corresponding to the same video player of that screen. &cr;&lf;&cr;&lf;Numpad Key&cr;&lf;7 8 9&cr;&lf;1 5 6&cr;&lf;Corresponding Screen&cr;&lf;0 2 4&cr;&lf;1 3 5&cr;&lf;&cr;&lf;Focus Mode: &cr;&lf;Holding down Numpad0 before using one of the Video Keys will focus that video to be the only one on screen and turn off continous skip mode for that video. To clear out of focus mode you can press the Numpad. or Del key. -- Advanced option to the right to enable/disable the clip looping while in focus mode to continue to play the movie from that point.&cr;&lf;&cr;&lf;Tips:&cr;&lf;Re-encode larger movies to smaller easier formats - use an SSD - If your computer seems to get choppy on video load increase the number of skips within the video so it has to pre-load less different content and increase length of clips. |">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Fapinator 9000 v3.9.5&cr;&lf;****if you only see one video pres the numpad ./del key****&cr;&lf;-- Code is locked from editing CTRL+E --&cr;&lf;How to use this program: &cr;&lf;Primary Controls: &cr;&lf;Fullscreen: HOME key&cr;&lf;Play/Pause: END key&cr;&lf;Master Mute/UnMute: Numpad3&cr;&lf;Boss Mode (hides screen... sorta...): Numpad1&cr;&lf;Refresh Aspect Ratio Calculation: Numpad2&cr;&lf;&cr;&lf;This program has the tendancy to bug out on occasion - if so just close/reopen. &cr;&lf;&cr;&lf;First select your video stream folder from the box marked &quot;Open&quot;&cr;&lf;Then use keyboard shortcuts to full-screen/play the video folders. &cr;&lf;&cr;&lf;There are some input boxes below to tinker with settings, as well as a (barely) functional GUI for many controls but I don&apos;t really encourage using them as many can also be buggy or cause logics to fail. &cr;&lf;&cr;&lf;Video Skipping - you can skip to a new video new time within just a single video stream by pressing the numpad key corresponding to the same video player of that screen. &cr;&lf;&cr;&lf;Numpad Key&cr;&lf;7 8 9&cr;&lf;1 5 6&cr;&lf;Corresponding Screen&cr;&lf;0 2 4&cr;&lf;1 3 5&cr;&lf;&cr;&lf;Focus Mode: &cr;&lf;Holding down Numpad0 before using one of the Video Keys will focus that video to be the only one on screen and turn off continous skip mode for that video. To clear out of focus mode you can press the Numpad. or Del key. -- Advanced option to the right to enable/disable the clip looping while in focus mode to continue to play the movie from that point.&cr;&lf;&cr;&lf;Tips:&cr;&lf;Re-encode larger movies to smaller easier formats - use an SSD - If your computer seems to get choppy on video load increase the number of skips within the video so it has to pre-load less different content and increase length of clips. |">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
