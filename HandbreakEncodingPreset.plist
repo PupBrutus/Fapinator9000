@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist>
+  <array>
+    <dict>
+      <key>AudioList</key>
+      <array />
+      <key>AudioAllowAACPass</key>
+      <true />
+      <key>AudioAllowAC3Pass</key>
+      <true />
+      <key>AudioAllowDTSHDPass</key>
+      <true />
+      <key>AudioAllowDTSPass</key>
+      <true />
+      <key>AudioAllowMP3Pass</key>
+      <true />
+      <key>AudioEncoderFallback</key>
+      <string>AC3</string>
+      <key>ChapterMarkers</key>
+      <false />
+      <key>Default</key>
+      <integer>0</integer>
+      <key>FileFormat</key>
+      <string>MP4 file</string>
+      <key>Folder</key>
+      <false />
+      <key>Mp4HttpOptimize</key>
+      <integer>0</integer>
+      <key>Mp4iPodCompatible</key>
+      <integer>0</integer>
+      <key>PictureAutoCrop</key>
+      <integer>1</integer>
+      <key>PictureDeblock</key>
+      <integer>4</integer>
+      <key>PictureDecombDeinterlace</key>
+      <false />
+      <key>PictureDecombCustom</key>
+      <string />
+      <key>PictureDecomb</key>
+      <integer>0</integer>
+      <key>PictureDeinterlaceCustom</key>
+      <string />
+      <key>PictureDeinterlace</key>
+      <integer>0</integer>
+      <key>PictureDenoiseFilter</key>
+      <string>off</string>
+      <key>PictureDenoiseCustom</key>
+      <string />
+      <key>PictureDenoisePreset</key>
+      <string>ultralight</string>
+      <key>PictureDetelecine</key>
+      <integer>0</integer>
+      <key>PictureDetelecineCustom</key>
+      <string />
+      <key>PictureHeight</key>
+      <integer>288</integer>
+      <key>PictureKeepRatio</key>
+      <integer>0</integer>
+      <key>PictureModulus</key>
+      <integer>2</integer>
+      <key>PicturePAR</key>
+      <integer>2</integer>
+      <key>PictureLeftCrop</key>
+      <integer>0</integer>
+      <key>PictureRightCrop</key>
+      <integer>0</integer>
+      <key>PictureTopCrop</key>
+      <integer>0</integer>
+      <key>PictureBottomCrop</key>
+      <integer>0</integer>
+      <key>PictureWidth</key>
+      <integer>352</integer>
+      <key>PresetBuildNumber</key>
+      <string>2016021100</string>
+      <key>PresetDescription</key>
+      <string>No Description</string>
+      <key>PresetName</key>
+      <string>6-wall</string>
+      <key>Type</key>
+      <integer>1</integer>
+      <key>UsesMaxPictureSettings</key>
+      <integer>1</integer>
+      <key>UsesPictureFilters</key>
+      <integer>1</integer>
+      <key>UsesPictureSettings</key>
+      <integer>1</integer>
+      <key>VideoAvgBitrate</key>
+      <string />
+      <key>VideoEncoder</key>
+      <string>H.264 (x264)</string>
+      <key>VideoFramerate</key>
+      <string>30</string>
+      <key>VideoFramerateMode</key>
+      <string>pfr</string>
+      <key>VideoGrayScale</key>
+      <false />
+      <key>VideoQualitySlider</key>
+      <real>22</real>
+      <key>h264Level</key>
+      <string>3.0</string>
+      <key>x264OptionExtra</key>
+      <string />
+      <key>x264Preset</key>
+      <string>medium</string>
+      <key>h264Profile</key>
+      <string>main</string>
+      <key>x264Tune</key>
+      <string>none</string>
+      <key>x264UseAdvancedOptions</key>
+      <integer>0</integer>
+      <key>h265Profile</key>
+      <string>none</string>
+      <key>x265Preset</key>
+      <string>veryfast</string>
+      <key>x265Tune</key>
+      <string>none</string>
+      <key>VideoQualityType</key>
+      <integer>2</integer>
+      <key>VideoTargetSize</key>
+      <string />
+      <key>VideoTurboTwoPass</key>
+      <integer>0</integer>
+      <key>VideoTwoPass</key>
+      <integer>0</integer>
+      <key>x264Option</key>
+      <string />
+    </dict>
+  </array>
+</plist>
