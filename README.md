@@ -44,7 +44,7 @@ Video Skipping - you can skip to a new video new time within just a single video
 
 Numpad Key
 7 8 9
-1 5 6
+4 5 6
 Corresponding Screen
 0 2 4
 1 3 5
