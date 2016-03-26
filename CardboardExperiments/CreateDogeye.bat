@@ -1,0 +1,1 @@
+netsh wlan set hostednetwork mode=allow ssid=DogEye key=woofwoof
