@@ -87,7 +87,7 @@
    </BOUNDS>
    <PIN pinname="Output" visible="1">
    </PIN>
-   <PIN pinname="Enabled" visible="1">
+   <PIN pinname="Enabled" visible="1" slicecount="1" values="0">
    </PIN>
    </NODE>
    <NODE systemname="Map (Value)" nodename="Map (Value)" componentmode="Hidden" id="7">
@@ -127,7 +127,7 @@
    </PIN>
    </NODE>
    <NODE systemname="Counter (Animation Raster)" nodename="Counter (Animation Raster)" componentmode="Hidden" id="11">
-   <BOUNDS type="Node" left="5205" top="1710" width="100" height="100">
+   <BOUNDS type="Node" left="6375" top="1770" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Up" visible="1" slicecount="1" values="0">
    </PIN>
@@ -222,8 +222,6 @@
    <PIN pinname="Y Input Value" visible="1" slicecount="1" values="0">
    </PIN>
    </NODE>
-   <LINK srcnodeid="19" srcpinname="Output 1" dstnodeid="6" dstpinname="Enabled">
-   </LINK>
    <LINK srcnodeid="6" srcpinname="Output" dstnodeid="7" dstpinname="Input">
    </LINK>
    <NODE id="21" systemname="IOBox (Value Advanced)" componentmode="InABox" nodename="IOBox (Value Advanced)">
@@ -633,5 +631,7 @@
    <LINK srcnodeid="52" srcpinname="Output" dstnodeid="11" dstpinname="Up">
    </LINK>
    <LINK srcnodeid="53" srcpinname="Y Output Value" dstnodeid="40" dstpinname="Input 4">
+   </LINK>
+   <LINK srcnodeid="52" srcpinname="Output" dstnodeid="6" dstpinname="Enabled">
    </LINK>
    </PATCH>
